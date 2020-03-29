@@ -1,0 +1,20 @@
+@import "components/navbar.css";
+
+.mobile-only {
+  display: none;
+}
+
+
+.desktop-only {
+  display: block;
+}
+
+@media only screen and (max-device-width: 480px){
+      .mobile-only {
+      display: block;
+    }
+
+    .desktop-only {
+    display: none;
+  }
+}
