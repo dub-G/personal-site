@@ -1,9 +1,10 @@
-/* Open */
-function openNav() {
-  document.getElementById("myNav").style.height = "100%";
-}
+const openBtn = document.querySelector('.openbtn');
+openBtn.addEventListener('click', function() {
+    document.getElementById("myNav").style.height = "100%";
+    });
 
-/* Close */
-function closeNav() {
-  document.getElementById("myNav").style.height = "0%";
-}
+
+const closeBtn = document.querySelector('.closebtn');
+closeBtn.addEventListener('click', function() {
+    document.getElementById("myNav").style.height = "0%";
+    });

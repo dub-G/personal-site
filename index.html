@@ -1,35 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <nav class="desktop-only">
-      <div class="bgnav">
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Clients</a>
-          <a href="#">Contact</a>
-      </div>
-    </nav>
-    <nav class="mobile-only">
-      <!-- The overlay -->
-      <div id="myNav" class="overlay">
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Clients</a>
-          <a href="#">Contact</a>
+</head>
+
+<body>
+    <nav class="">
+        <div id="myNav" class="overlay">
+            <span class="closebtn mobile-only">&times;</span>
+            <div class="overlay-content">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
         </div>
-      </div>
-      <!-- Use any element to open/show the overlay navigation menu -->
-      <span onclick="openNav()" class="openbtn">&#9776;</span>
+        <span class="openbtn mobile-only">&equiv;</span>
     </nav>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
