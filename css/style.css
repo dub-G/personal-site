@@ -1,7 +1,7 @@
 @import "components/navbar.css";
 
 body {
-    background: url(/images/bg.jpg);
+    background: url(images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
