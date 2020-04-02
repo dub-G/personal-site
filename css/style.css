@@ -6,7 +6,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
 }
 
-homepage {
+.homepage {
     background: url(../images/bg.jpg) fixed;
     background-position-x: center;
     background-repeat: no-repeat;
