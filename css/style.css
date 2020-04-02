@@ -1,6 +1,6 @@
 @import "components/navbar.css";
 
-html {
+body {
     background: url(../images/bg.jpg) fixed;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
 }
 
