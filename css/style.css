@@ -1,12 +1,19 @@
 @import "components/navbar.css";
 
-body {
-    background: url(../images/bg.jpg);
+html {
+    background: url(../images/bg.jpg) fixed;
+    background-position-x: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+body {
     margin: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
