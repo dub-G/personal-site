@@ -1,0 +1,22 @@
+.gallery {
+  padding-top: 200px;
+}
+.x {
+  margin: 0 auto;
+  width: 80%;
+  display: block;
+  margin-bottom: 30px;
+}
+
+
+.photos {
+  background: black;
+}
+
+.navbar-dark {
+    margin: 0;
+    padding: 16px 32px 0px 32px;
+    background: black;
+
+}
+

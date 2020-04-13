@@ -5,6 +5,23 @@
 .navbar {
     height: 60px;
     margin: 16px 32px 16px 32px;
+    animation: opacity 3s;
+}
+
+.light {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.light:hover {
+  color: white;
+}
+
+.dark {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.dark:hover {
+  color: black;
 }
 
 .nav-items {
@@ -18,12 +35,7 @@
     margin: 0 8px;
     text-decoration: none;
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.4);
     transition: 0.3s;
-}
-
-.nav-link:hover {
-    color: white;
 }
 
 .closebtn,
@@ -37,6 +49,12 @@
 .openbtn {
     color: white;
 }
+
+@keyframes opacity:  {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 @media (max-width: 768px) {
 
@@ -61,8 +79,10 @@
         text-align: center;
     }
 
+    .light, .dark {
+      color: black;
+    }
     .nav-link {
-        color: black;
         padding: 8px;
         text-decoration: none;
         font-size: 40px;
