@@ -60,7 +60,7 @@ body {
 }
 
 
-@media (max-device-width: 768px) {
+@media (max-width: 768px) {
 
     body {
         background-position: center;
